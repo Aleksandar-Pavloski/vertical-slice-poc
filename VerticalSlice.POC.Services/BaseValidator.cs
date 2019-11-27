@@ -1,6 +1,5 @@
 ﻿using FluentValidation;
 using MediatR;
-using System.Runtime.CompilerServices;
 
 namespace VerticalSlice.POC.Services
 {

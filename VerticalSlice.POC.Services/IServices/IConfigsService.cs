@@ -1,6 +1,4 @@
-﻿using StructureMap;
-
-namespace VerticalSlice.POC.Services.IServices
+﻿namespace VerticalSlice.POC.Services.IServices
 {
     public interface IConfigsService
     {

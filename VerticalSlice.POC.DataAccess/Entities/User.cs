@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace VerticalSlice.POC.DataAccess.Entities
+﻿namespace VerticalSlice.POC.DataAccess.Entities
 {
     public class User : BaseEntity
     {
