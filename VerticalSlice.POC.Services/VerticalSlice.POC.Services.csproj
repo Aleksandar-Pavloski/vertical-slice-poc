@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.5.1" />
+    <PackageReference Include="MediatR" Version="7.0.0" />
+    <PackageReference Include="Otp.NET" Version="1.2.2" />
+    <PackageReference Include="StructureMap" Version="4.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Costs\" />
+    <Folder Include="Features\Filters\" />
+    <Folder Include="Features\Subscriptions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VerticalSlice.POC.Core\VerticalSlice.POC.Core.csproj" />
+  </ItemGroup>
+
+</Project>
